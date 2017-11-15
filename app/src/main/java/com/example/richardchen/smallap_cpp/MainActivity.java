@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        ByteBuffer buffer = ByteBuffer.allocate(10);
+//        ByteBuffer buffer = ByteBuffer.allocate(10); //Don't use this one. The program will die.
         ByteBuffer buffer = ByteBuffer.allocateDirect(10);
 
         byte   b1 = 'A';
